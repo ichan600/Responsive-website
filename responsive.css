@@ -1,0 +1,162 @@
+*{
+    margin:0;
+}
+
+nav{
+    padding:15px 10px;
+    background: black;
+    width: 100%;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px yellow yellow yellow;
+    
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    padding:20px;
+    gap:20px ;  
+    float:right;
+    position:relative;
+    color: yellow;
+    font-size: 30px; 
+    right: 20px; 
+    
+}
+
+a{
+    text-decoration: none;
+    box-shadow: 3px 3px 5px yellow;
+    font-family: "Kings", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 20px;
+    color: white;
+}
+
+.wb{
+    text-align: center;
+    left:700px ;
+}
+
+img{
+    height: 100px;
+    width: 150px;
+}
+
+.g{
+    width: 400px;
+    height: 400px;
+    position:relative;
+    margin-left:-325px;
+    top:100px;
+    box-shadow:10px 10px 10px yellow;
+    
+}
+
+h2{
+    text-align: center;
+    padding: 150px;
+    font-family: "Kings", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+     
+
+}
+
+body{
+    background-color: blueviolet;
+}
+
+@media (min-width:0) and (max-width: 600px) {
+    nav {
+        padding: 10px;
+    }
+    
+    ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    ul li {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .wb {
+        left: 0;
+    }
+
+    .g {
+        width: 300px;
+        height: 300px;
+        margin-left: 0;
+        margin-bottom: 40px;
+        
+        
+    }
+
+    h2 {
+        padding: 50px;
+        font-size: 24px;
+    }
+
+    img {
+        width: 120px;
+        height: 80px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    nav {
+        padding: 12px 10px;
+    }
+
+    ul {
+        font-size: 24px;
+    }
+
+    .g {
+        width: 350px;
+        height: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    h2 {
+        padding: 100px;
+        font-size: 28px;
+    }
+
+    img {
+        width: 140px;
+        height: 90px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    ul {
+        font-size: 30px;
+    }
+
+    .g {
+        width: 400px;
+        height: 400px;
+        left: 750px;
+        top: 100px;
+    }
+
+    h2 {
+        padding: 150px;
+        font-size: 32px;
+    }
+
+    img {
+        width: 150px;
+        height: 100px;
+    }
+}
